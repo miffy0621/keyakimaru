@@ -1,0 +1,85 @@
+.section-inner .menu {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-inner .menu .menuimg {
+    width: 45%;
+}
+
+.section-inner .menu .menuimg img {
+    width: 100%;
+}
+
+.section-inner .menu .menuread {
+    position: relative;
+    width: 50%;
+}
+
+.section-inner .menu .menuread h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+.section-inner .menu .menuread h2 .season {
+    font-size: 0.5em;
+    padding: 5px 8px;
+    background: #C0D904;
+    border-radius: 10%;
+    margin-left: 20px;
+}
+
+.section-inner .menu .menuread p {
+    line-height: 2;
+    margin-bottom: 80px;
+}
+
+.section-inner .menu .menuread table {
+    width: 50%;
+}
+
+.section-inner .menu .menuread table tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.section-inner .menu .menuread table th {
+    font-size: 1.1em;
+}
+
+.section-inner .menu .menuread table td {
+    font-size: 1.8em;
+}
+
+.section-inner .menu .menuread span {
+    font-size: 0.9em;
+}
+
+.section-inner .menu .menuread .menubtn {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin-top: auto;
+    margin-left: auto;
+    text-align: right;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.section-inner .menu .menuread .menubtn a {
+    padding: 3% 15%;
+    background: #fff;
+    border: 1px #94B420 solid;
+    transition: all 0.5s;
+}
+
+.section-inner .menu .menuread .menubtn a:hover {
+    background: #94B420;
+    border: 1px #fff solid;
+    border-radius: 50px;
+}

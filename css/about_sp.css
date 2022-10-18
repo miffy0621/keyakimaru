@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@media screen and (max-width: 1000px) {
+    .section-inner .about table {
+        width: 90%;
+    }
+    .icon {
+        width: 30%;
+    }
+    .section-inner .about {
+        padding: 40px 10px;
+    }
+    .section-inner .about table tr th {
+        padding: 20px 20px 0 0;
+        font-size: 1em;
+        width: 30%;
+    }
+    .section-inner .about table tr td {
+        padding: 0 0 20px 20px;
+        line-height: 1.5;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-inner .about table tr th {
+        padding: 20px 10px 0 0;
+        font-size: 0.9em;
+    }
+    .section-inner .about table tr td {
+        padding: 0 0 20px 10px;
+        font-size: 0.9em;
+    }
+}

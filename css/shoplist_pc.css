@@ -1,0 +1,83 @@
+@charset "UTF-8";
+.topimg {
+    background-image: url(../images/mainvisual/shop.png);
+    width: 100%;
+    height: 90vh;
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    position: relative;
+    overflow: hidden;
+}
+
+.message {
+    background-image: url(../images/mainvisual/background.png);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: relative;
+    overflow: hidden;
+}
+
+.message .section-inner p {
+    font-size: 1.2em;
+    line-height: 2em;
+    width: 60%;
+    margin-top: 300px;
+}
+
+.message .icon img {
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+    left: -50px;
+    opacity: 0.2;
+}
+
+.shop h2 {
+    font-size: 2.5em;
+    margin: 100px 0 50px;
+    text-align: center;
+}
+
+.shop .section-inner .shopbox {
+    display: flex;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.shop .section-inner .shopbox .shopimg {
+    width: 45%;
+    margin-right: 80px;
+}
+
+.shop .section-inner .shopbox .shopimg img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.shop .section-inner .shopbox .shopinfo {
+    flex: 1;
+}
+
+.shop .section-inner .shopbox h3 {
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 50px;
+    border-bottom: solid 2px #C0D904;
+    line-height: 1.6;
+}
+
+.shop .section-inner .shopbox table tr th {
+    text-align: left;
+    font-size: 1.1em;
+    width: 25%;
+}
+
+.shop .section-inner .shopbox table tr td {
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}

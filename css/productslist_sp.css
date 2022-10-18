@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@media screen and (max-width: 1550px) {
+    .section-inner .menu .menuread h2 {
+        font-size: 2.2em;
+        margin-bottom: 0.5em;
+    }
+    .section-inner .menu .menuread p {
+        font-size: 0.9em;
+    }
+    .section-inner .menu .menuread table {
+        width: 45%;
+    }
+    .section-inner .menu .menuread table th {
+        font-size: 1em;
+    }
+    .section-inner .menu .menuread table td {
+        font-size: 1.6em;
+    }
+    .section-inner .menu .menuread table td span {
+        font-size: 0.5em;
+    }
+    .section-inner .menu .menuread .menubtn a {
+        font-size: 0.9em;
+    }
+    .section-inner .menu .menuread p {
+        line-height: 1.8;
+        font-size: 0.9em;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .section-inner {
+        width: 90%;
+    }
+    .section-inner .menu .menuread h2 {
+        font-size: 1.8em;
+        margin-bottom: 0.5em;
+    }
+    .section-inner .menu .menuread p {
+        font-size: 0.8em;
+    }
+    .section-inner .menu .menuread table tr {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section-inner .menu .menuread p {
+        margin-bottom: 10px;
+    }
+    .section-inner .menu .menuread table th {
+        font-size: 0.8em;
+    }
+    .section-inner .menu .menuread table td {
+        font-size: 1.5em;
+    }
+    .section-inner .menu .menuread span {
+        font-size: 0.8em;
+    }
+    .section-inner .menu .menuread table tr {
+        margin-bottom: 10px;
+    }
+    .section-inner .menu .menuread .menubtn a {
+        width: 100%;
+        right: 0;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .section-inner .menu {
+        display: block;
+        margin-top: 0;
+        width: 100%;
+    }
+    .section-inner .menu .menuimg {
+        width: 100%;
+    }
+    .section-inner .menu .menuread {
+        width: 100%;
+    }
+    .section-inner .menu .menuread h2 {
+        font-size: 2em;
+        margin: 20px 0 10px;
+    }
+    .section-inner .menu .menuread p {
+        margin-bottom: 40px;
+    }
+    .section-inner .menu .menuread table {
+        width: 40%;
+        margin-bottom: 0;
+    }
+    .section-inner .menu .menuread .menubtn {
+        bottom: auto;
+        margin-top: 50px;
+        margin-left: auto;
+    }
+    .section-inner .menu .menuread .menubtn a {
+        padding: 3% 10%;
+    }
+    .section-inner .menu .menuread span {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-inner .menu .menuread table {
+        width: 60%;
+    }
+    .section-inner .menu .menuread .menubtn {
+        width: 100%;
+    }
+}

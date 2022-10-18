@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@media screen and (max-width: 1200px) {
+    .zunda .section-inner p {
+        width: 70%;
+    }
+    .zunda .zundaimg {
+        width: 60%;
+    }
+    .zunda .zundaimg img {
+        opacity: 0.6;
+    }
+    .productlist ul li a div {
+        font-size: 1.1em;
+    }
+    @media screen and (max-width: 1000px) {
+        h2 {
+            font-size: 2.2em;
+        }
+        .zunda .section-inner p {
+            font-size: 0.9em;
+        }
+        .productlist ul li a div {
+            font-size: 1em;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .zunda .section-inner p {
+            width: 100%;
+        }
+        .zunda .zundaimg {
+            width: 70%;
+        }
+        .zunda .zundaimg img {
+            opacity: 0.5;
+        }
+        .zunda .icon img {
+            width: 35%;
+        }
+        .productlist ul li {
+            width: 48%;
+            margin: 0 1% 1.5em;
+        }
+        .productlist ul li a div {
+            font-size: 1em;
+        }
+    }
+    @media screen and (max-width: 600px) {
+        .section-inner {
+            width: 90%;
+        }
+        h2 {
+            font-size: 1.9em;
+        }
+        .zunda .zundaimg {
+            width: 80%;
+        }
+        .zunda .icon img {
+            width: 42%;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        h2 {
+            font-size: 1.7em;
+        }
+        .zunda .icon img {
+            width: 50%;
+        }
+        .productlist ul li a div {
+            font-size: 0.9em;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        h2 {
+            font-size: 1.6em;
+        }
+        .zunda .icon img {
+            width: 60%;
+        }
+        .productlist ul li a div {
+            font-size: 0.8em;
+        }
+    }
+}

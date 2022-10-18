@@ -1,0 +1,139 @@
+@charset "UTF-8";
+.mainvisual {
+    background-image: url(../images/mainvisual/topzunda.png);
+    height: 90vh;
+    width: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: top right -200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mainvisual .catchcopy {
+    position: absolute;
+    font-size: 2.7em;
+    z-index: 100;
+    top: 150px;
+    left: 300px;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.5em;
+}
+
+.mainvisual img {
+    opacity: 0.3;
+    width: 100%;
+}
+
+.top .h2_block h2 {
+    font-family: ryo-text-plusn, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2.5em;
+    writing-mode: vertical-rl;
+    letter-spacing: 0.2em;
+    margin: 0 auto 20px;
+}
+
+.products-area a .flow,
+.shoplist-area a .flow,
+.about-area a .flow {
+    width: 100%;
+    height: 8px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: skew(45deg);
+    margin-top: 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.products-area a img,
+.shoplist-area a img,
+.about-area a img {
+    transition: all 0.5s ease 0s;
+}
+
+
+/* -------- hover -------- */
+
+.products-area a:hover .flow,
+.shoplist-area a:hover .flow,
+.about-area a:hover .flow {
+    border-bottom: 2px solid #94B420;
+    border-right: 2px solid #94B420;
+}
+
+.products-area a:hover img,
+.shoplist-area a:hover img,
+.about-area a:hover img {
+    border-radius: 30px;
+}
+
+
+/* -------- hoverend -------- */
+
+.products-area,
+.shoplist-area,
+.about-area {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: 100px;
+}
+
+.products-area .icon,
+.shoplist-area .icon,
+.about-area .icon {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    bottom: 0;
+    left: -50px;
+}
+
+.products-area a,
+.shoplist-area a,
+.about-area a {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+
+.products-area a .h2_block,
+.shoplist-area a .h2_block,
+.about-area a .h2_block {
+    width: 200px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 100;
+    left: -50px;
+    top: -50px;
+    padding: 30px;
+}
+
+.products-area a img,
+.shoplist-area a img,
+.about-area a img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.shoplist-area a {
+    margin-left: 0;
+}
+
+.shoplist-area .icon {
+    left: auto;
+    right: -50px;
+}
+
+.shoplist-area a .h2_block {
+    left: auto;
+    right: -50px;
+    top: -50px;
+}

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@media screen and (max-width: 1440px) {
+    .top .h2_block h2 {
+        font-size: 2em;
+    }
+    .top .h2_block p {
+        font-size: 0.9em;
+    }
+    .mainvisual {
+        background-position: top right -400px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mainvisual img {
+        width: 120%;
+    }
+    .top .h2_block h2 {
+        font-size: 1.8em;
+    }
+    .products-area a,
+    .about-area a {
+        width: 70%;
+        right: -100px;
+    }
+    .shoplist-area a {
+        width: 70%;
+        left: -100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mainvisual img {
+        width: auto;
+        height: 100vh;
+    }
+    .top .h2_block h2 {
+        font-size: 1.6em;
+    }
+    .mainvisual .catchcopy {
+        font-size: 2.3em;
+        left: 200px;
+    }
+    .products-area a,
+    .shoplist-area a,
+    .about-area a {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mainvisual {
+        background-size: 140% auto;
+        background-position: bottom right -600px;
+        position: relative;
+    }
+    .mainvisual img {
+        height: 100%;
+        width: auto;
+    }
+    .products-area .icon,
+    .about-area .icon {
+        width: 200px;
+        bottom: auto;
+        top: 0;
+        left: -40px;
+    }
+    .shoplist-area .icon {
+        width: 200px;
+        bottom: auto;
+        top: 0;
+        left: auto;
+        right: -40px;
+    }
+    .products-area a,
+    .shoplist-area a,
+    .about-area a {
+        width: 100%;
+    }
+    .products-area a img,
+    .about-area a img {
+        width: auto;
+        height: 600px;
+        margin-top: 0;
+    }
+    .products-area a .h2_block,
+    .shoplist-area a .h2_block,
+    .about-area a .h2_block {
+        width: 200px;
+        background-color: #fff;
+        position: absolute;
+        z-index: 100;
+        left: -50px;
+        top: auto;
+        bottom: 20px;
+        padding: 30px;
+    }
+    .products-area a .h2_block .h2_block-inner,
+    .shoplist-area a .h2_block .h2_block-inner,
+    .about-area a .h2_block .h2_block-inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    .top .h2_block h2 {
+        margin: 0;
+    }
+    .top .h2_block .h2_block-inner p {
+        width: 75%;
+        line-height: 2;
+    }
+    .shoplist-area a {
+        margin-left: 0;
+    }
+    .shoplist-area .icon {
+        left: auto;
+        right: -50px;
+    }
+    .shoplist-area a .h2_block {
+        left: auto;
+        right: -50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .products-area a img,
+    .shoplist-area a img,
+    .about-area a img {
+        width: 95vw;
+        height: 90vh;
+        object-fit: cover;
+        margin-top: 0;
+    }
+    .mainvisual .catchcopy {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 50px;
+        text-align: center;
+        text-shadow: 0.5px 0.5px #fff;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mainvisual {
+        background-size: 170% auto;
+        background-position: bottom right -600px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mainvisual {
+        background-size: 200% auto;
+        background-position: bottom right -600px;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mainvisual {
+        background-size: 250% auto;
+        background-position: bottom right -600px;
+        position: relative;
+    }
+}

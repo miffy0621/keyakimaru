@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@media screen and (max-width: 1400px) {
+    .message {
+        background-size: cover;
+        background-position: center bottom;
+    }
+    .message .section-inner p {
+        width: 80%;
+        font-weight: 800;
+    }
+    .shop .section-inner img {
+        width: 50%;
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .message .section-inner p {
+        width: 100%;
+    }
+    .shop .section-inner .shopbox {
+        margin-bottom: 60px;
+    }
+    .message .section-inner p {
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .shop .section-inner .shopbox .shopimg {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .message .icon img {
+        width: 35%;
+    }
+    .message .section-inner p {
+        font-size: 1em;
+    }
+    .shop .section-inner img {
+        width: 100%;
+        margin-right: 0;
+    }
+    .shop .section-inner .shopbox h3 {
+        font-size: 1.5em;
+    }
+    .shop h2 {
+        font-size: 2em;
+    }
+    .shop .section-inner .shopbox {
+        display: block;
+        margin-bottom: 80px;
+        align-items: center;
+    }
+    .shop .section-inner .shopbox table {
+        margin-top: 40px;
+    }
+    .shop .section-inner .shopbox table tr th,
+    .shop .section-inner .shopbox table tr td {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .shop .section-inner .shopbox .shopimg {
+        width: 100%;
+    }
+    .message .icon img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .message .icon img {
+        width: 50%;
+    }
+    .message .section-inner p {
+        font-size: 0.9em;
+    }
+    .shop h2 {
+        font-size: 1.8em;
+    }
+    .shop .section-inner .shopbox {
+        margin-bottom: 70px;
+    }
+    .shop .section-inner .shopbox table caption {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .message .icon img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .message .icon img {
+        width: 70%;
+    }
+}
